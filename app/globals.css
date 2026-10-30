@@ -1,0 +1,79 @@
+:root {
+	--sea-900: #13312f;
+	--sea-700: #255a54;
+	--sea-500: #3f8a7f;
+	--sea-100: #e3efeb;
+	--kelp: #6b6a2f;
+	--dulse: #b5655a;
+	--shell: #f7f3ec;
+	--ink: #1d2221;
+	--ink-muted: #5b6563;
+	--line: #e0e2dc;
+	--radius: 10px;
+	--max: 1120px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+	color: var(--ink);
+	background: var(--shell);
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: var(--sea-700);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.15;
+	color: var(--sea-900);
+	font-weight: 500;
+}
+
+h1 {
+	font-size: clamp(2.1rem, 4.5vw, 3.3rem);
+	letter-spacing: -0.015em;
+	margin: 0 0 1rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+	margin: 2.5rem 0 0.75rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin: 1.5rem 0 0.5rem;
+}
+
+p,
+li {
+	font-size: 1.05rem;
+}
+
+button,
+input,
+select,
+textarea,
+.sans {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+}
